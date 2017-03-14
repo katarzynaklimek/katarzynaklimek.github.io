@@ -1,24 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
 </head>
 <body>
-    
    
-        <form action="https://formspree.io/katarzyna.monika.klimek@gmail.com" method="post">
-            <label for="imie">Imię:</label><br/>
-            <input type="text" name="imie" id="imie"><br/>
-            <label for="nazwisko">Nazwisko:</label><br/>
-            <input type="text" name="nazwisko" id="nazwisko"><br/> 
-            <label for="email">Email:</label><br/>
-            <input type="text" name="email" id="email"><br/>
-            <label for="numertelefonu">Numer telefonu:</label><br/>
-            <input type="text" name="numertelefonu" id=numertelefonu><br/>
-            <label for="wiadomosc">Wiadomość</label><br/>
-            <textarea maxlength="1500" name="wiadomosc" id="wiadomosc"></textarea><br/>
-            <input type="submit" value="wyslij">
-        </form>
+<form action="https://formspree.io/katarzyna.monika.klimek@gmail.com" method="post">
+    <label for="imie">Imię</label>
+    <input type="text" name="imie" id="imie"><br>
+    <label for="nazwisko">Nazwisko</label>
+    <input type="text" name="nazwisko" id="nazwisko"><br>
+    <label for="mail">Adres email</label>
+    <input type="email" name="mail" id="mail"><br>
+    <label for="telefon">Telefon</label>
+    <input type="text" name="telefon" id="telefon"><br>
+    <br>
+    Wybierz miasto<br>
+    <select name="miasto">
+        <option value="gdansk">Gdańsk</option>
+        <option value="krakow">Kraków</option>
+        <option value="warszawa">Warszawa</option>
+        <br>
+    
+    </select><br>
+    <br> Wybierz płeć<br>
+    <input type="radio" name="plec" value="kobieta">Kobieta
+    <br>
+    <input type="radio" name="plec" value="mezczyzna">Mężczyzna
+    <br>
+    <br>
+    <input type="checkbox" name="zgoda" value="zgoda">Zgadzam się na przetwarzanie moich danych osobowych
+    <br>
+    <label for="wiadomosc">Wiadomość</label>
+    <br/>
+    <textarea maxlength="1500" name="wiadomosc" id="wiadomosc"></textarea>
+
+
+</form>
+    
 </body>
 </html>
