@@ -63,6 +63,9 @@
     a {
         margin: 0;
     }
+    #labelcheckbox {
+    display: block;
+}
 }
 
 @media all and (max-width: 680px){
@@ -77,6 +80,7 @@
     #fed {
         font-size: 1.5em;
     }
+    
     
 }
 
