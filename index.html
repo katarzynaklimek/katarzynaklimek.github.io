@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700,700i|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.03/css/font-awesome.min.css">
 
@@ -13,7 +14,10 @@
 
 <body>
     <nav id="menu">
-        <ul id="lista">
+       
+        <label id="labelcheckbox" for="drop" class="toggle">menu</label>
+          <input type="checkbox" id="drop">
+           <ul id="lista">
             <li><a href="omnie.html">o mnie</a></li>
             <li><a href="umiejetnosci.html">umiejętności</a></li>
             <li><a href="portfolio.html">portfolio</a></li>
@@ -23,8 +27,8 @@
 
     <header id="main-header">
         <div class="main-header-content">
-            <h1>Katarzyna <span style="color:#1ac056">Klimek</span></h1>
-            <h2>Front-End Developer</h2>
+            <h1 id="kk">Katarzyna <span style="color:#1ac056">Klimek</span></h1>
+            <h2 id="fed">Front-End Developer</h2>
 
         </div>
     </header>
@@ -164,7 +168,7 @@
             <br/>
             <textarea maxlength="1500" name="wiadomosc" id="wiadomosc"></textarea>
             <br/>
-            <input class="wyslij" type="submit" value="wyslij">
+            <input class="wyslij" type="submit" value="wyślij">
         </form>
 
     </div>
