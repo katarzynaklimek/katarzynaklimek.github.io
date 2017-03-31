@@ -2,7 +2,7 @@
     font-family: "Lato", sans-serif;
     color: dimgrey;
     font-weight: 300;
-/*    box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 section {
@@ -14,22 +14,25 @@ h1 {
     text-align: center;
     font-size: 70px;
     color: white;
-    /*    border: 2px solid rebeccapurple;*/
+    
+}
+.main-header-content>h2 {
+    color: white;
 }
 
 h2 {
-    color: white;
+    color: dimgrey;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 35px;
-/*    border: 2px solid rebeccapurple;*/
+
 }
 
 h3 {
-    color: rebeccapurple;
-    /*    border: 2px solid rebeccapurple;*/
+    color: white;
+    
 }
 
 #naglowekh2 {
@@ -63,7 +66,7 @@ nav>ul>li>a {
 }
 
 a:hover {
-    color: deeppink;
+    color: lawngreen;
 }
 
 header#main-header {
@@ -71,7 +74,7 @@ header#main-header {
     background-size: cover;
     background-position: center;
     width: 100%;
-    /*    border: 2px solid rebeccapurple;*/
+    
 }
 
 header#main-header .main-header-content {
@@ -83,8 +86,7 @@ header#main-header .main-header-content {
     
     background-color: #f9fcfe;
     overflow: hidden;
-/*    border: 2px solid rebeccapurple;*/
-/*    float: left;*/
+
 }
 
 span.clear {
@@ -95,12 +97,12 @@ span.clear {
 .blok {
     display: inline-block;
     padding: 40px 40px 40px;
-    /*    border: 2px solid rebeccapurple;*/
+    
 }
 
 p {
-/*    display: inline-block;*/
-    border: 2px solid rebeccapurple;
+
+/*    border: 2px solid rebeccapurple;*/
 }
 
 figcaption {
@@ -114,26 +116,15 @@ span {
 }
 
 #skillsicons {
-/*    position: absolute;*/
     width: 100%;
-    /*    border: 2px solid rebeccapurple;*/
     text-align: center;
 }
 
-#skills {
-    top: 500px;
-/*    position: relative;*/
-    height: 300px;
-}
+
 
 /*sekcja o mnie*/
 
-/*
-#about {
-    padding: 0 80px 100px;
-    width: 100%;
-}
-*/
+
 h2 {
     justify-content: center;
 }
@@ -141,16 +132,12 @@ h2 {
     padding: 0 80px 100px;
     width: 100%;
     overflow: auto;
-/*    position: relative;*/
+
 }
 #zdjecieomnie {
     height: 350px;
     margin: 0;
-/*    margin: auto;*/
-/*    position: absolute;*/
 
-/*    width: 50%;*/
-/*    display: inline;*/
     
 }
 #zdjecieoomnie{
@@ -162,79 +149,23 @@ h2 {
 #article {
     margin: 0;
     width: 50%;
-    
-/*    display: inline;*/
-/*    clear: both;*/
-/*    position: absolute;*/
     float: left;
-/*    clear: right;*/
-/*    border: 2px solid red;*/
-/*    height: 350px;*/
-/*    display: inline;*/
-    
-}
+  }
+
 
 p {
-/*    display: inline-block;*/
-}
-
-
-
-
-
-
-
-
-/*
-#zdjecieomnie {
-    width: 45%;
-    object-position: center;
-}
-
-article {
-    width: 45%;
     display: inline-block;
-    right: 250px;
-        border: 2px solid rebeccapurple;
-    text-align: center;
-    bottom: 90px;
-    position: absolute;
-    height: 200px;
 }
 
-#zdjecieoomnie {
-    width: 45%;
-    display: inline-block;
-    margin-left: 200px;
-}
-
-.omnie {
-    position: absolute;
-    float: right;
-}
-*/
-
-#naglowekumiejetnosci,
-#naglowekkontakt {
-    color: dimgrey;
-}
-
-#portfolio {
-    position: relative;
-}
-
-#portfolio>h2 {
-    color: dimgrey;
-}
 
 #portfolio-item-1 {
-    background-image: url(../img/portfolio1.jpg);
-    /*    border: 2px solid rebeccapurple;*/
+    background-image: url(../img/portfolio1.jpg)
 }
+
 
 #portfolio-item-2 {
     background-image: url(../img/portfolio2.jpg);
-    /*    border: 2px solid rebeccapurple;*/
+    
 }
 
 #portfolio-item-3 {
@@ -254,7 +185,8 @@ article {
 
 .portfolio-items {
     text-align: center;
-    font-size: 0;
+/*    font-size: 0;*/
+    
 }
 
 .single-portfolio-item-mask {
@@ -288,31 +220,96 @@ article {
 }
 
 #contact {
-    position: relative;
-    
-    border: 2px solid black;
+
+    background-color: #213b50;
+    color: #fff;
+/*    height: 300px;*/
+    overflow: hidden;
+/*    border: 2px solid black;*/
    
+}
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 0 solid #2b4a64;
+    font-size: 0;
+    background-color: #2b4a64;
+}
+input:focus {
+    background-color: #426684;
+}
+textarea:focus {
+    background-color: #426684;
 }
 
-.contact-social-icon {
-   
-/*    position: absolute;*/
-    top: 0;
-    right: 0;
-    height: 200px;
-    width: 50%;
-/*    float: left;*/
-    
-    border: 2px solid rebeccapurple;
-}
 
 .contact-form {
-    
-/*    position: absolute;*/
-    border: 2px solid rebeccapurple;
-    top: 0;
-    left: 0;
-    height: 200px;
+/*    border: 2px solid rebeccapurple;*/
+    margin-top: 100px;
     width: 50%;
-/*    float: left;*/
+    float: left;
 }
+
+.contact-data {
+    margin: 0;
+    width: 50%;
+    float: left;
+    
+}
+
+#naglowekkontakt {
+    text-align: left;
+    font-size: 38px;
+    
+}
+#mailto {
+    color: #1ac056;
+}
+
+.contact-social-icon>a {
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    margin-right: 30px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 22px;
+}
+
+
+.contact-social-icon>a:hover {
+    border-color: #213b50;
+    color: #213b50;
+    background-color: #fff;
+}
+address {
+    font-style: normal;
+    line-height: 25px;
+    margin: 72px 0;
+}
+
+input[type="submit"]{
+    width: auto;
+    padding: 15px 30px;
+    float: right;
+    text-transform: uppercase;
+    border: 1px solid #1ac056;
+    background-color: #1ac056;
+    color: #fff;
+    font-weight: 600;
+}
+.wyslij:hover {
+    background-color: #fff;
+    color: #1ac056;
+}
+footer {
+    background-color: #142634;
+    padding: 0 80px;
+}
+footer>p {
+    margin: 0;
+}
+
+
