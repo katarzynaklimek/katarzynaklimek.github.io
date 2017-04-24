@@ -3,189 +3,169 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700,700i|Roboto" rel="stylesheet">
+
+    <title>Document</title>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i|Montserrat|Roboto+Slab" rel="stylesheet">
+
+
+
     <link rel="stylesheet" href="font-awesome-4.7.03/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="js/script.js"></script>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav id="menu">
-       
-        <label id="labelcheckbox" for="drop" class="toggle">menu</label>
-          <input type="checkbox" id="drop">
-           <ul id="lista">
-            <li><a href="#about">o mnie</a></li>
-            <li><a href="#skills">umiejętności</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">kontakt</a></li>
-        </ul>
-    </nav>
-
-    <header id="main-header">
-        <div class="main-header-content">
-            <h1 id="kk">Katarzyna <span style="color:#1ac056">Klimek</span></h1>
-            <h2 id="fed">Front-End Developer</h2>
-
+    <!--SEKCJA HEADER-->
+    <header class="vertical-center">
+        <div id="header-content">
+            <p>Nam libero tempore, cum soluta</p>
+            <h1>LOREM IPSUM DOLOR</h1>
+            <button>VIEV MORE</button>
         </div>
     </header>
-
-
-
-
-    <section id="about">
-        <h2 id="naglowekh2">O <span>mnie</span></h2>
-
-
-        <figure id="zdjecieoomnie">
-            <img id="zdjecieomnie" src="img/jan-nowak.jpg" alt="jannowak">
-        </figure>
-
-        <article id="article">
-
-            <p class="omnie">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, impedit.</p>
-            <p class="omnie">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ea alias quas dolore dignissimos unde dolores, culpa blanditiis at, aspernatur minima similique possimus cumque velit nostrum molestias quod provident eaque!</p>
-            <span class="clear"></span>
-        </article>
-
-
-    </section>
-
-    <div id="skills">
-        <h2 id="naglowekumiejetnosci">Moje <span>umiejętności</span></h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, dolorum corporis necessitatibus aspernatur commodi amet debitis harum accusamus quidem omnis, ullam illo consequatur veritatis doloribus fuga dolor, velit autem soluta. Provident libero ex, saepe quisquam harum dolorum possimus amet magnam ipsam quam. Ipsam cum consectetur rerum pariatur, quisquam reiciendis iste.</p>
-
-        <div id="skillsicons">
-            <div id="icons">
-                <figure class="blok"><img src="icons/html5.png" alt="ikonahtml5">
-                    <figcaption>HTML</figcaption>
-                </figure>
-                <figure class="blok"><img src="icons/css3.png" alt="ikonacss3">
-                    <figcaption>CSS3</figcaption>
-                </figure>
-                <figure class="blok"><img src="icons/js.png" alt="ikonajs">
-                    <figcaption>JavaScript</figcaption>
-                </figure>
-                <figure class="blok"><img src="icons/jquery.png" alt="ikonajquery">
-                    <figcaption>jQuery</figcaption>
-                </figure>
+    <!--SEKCJA SERVICES-->
+    <section id="services" class="container text-center">
+        <h2 class="row">SERVICES</h2>
+        <p class="row">Lorem ipsum dolor sit amet.</p>
+        <div id="services-content" class="row ">
+            <div class=" col-lg-4 ">
+                <div id="web-development" class="kolo vertical-center thumbnail center-block"><i class="fa fa-briefcase icons" aria-hidden="true"></i></div>
+                <div class="caption">
+                    <h4>WEB Development</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, nulla?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis doloremque maxime cumque unde distinctio, neque.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div id="e-commerce" class="kolo vertical-center thumbnail center-block"><i class="fa fa-cloud-download icons" aria-hidden="true"></i></div>
+                <div class="caption">
+                    <h4>E-commerce</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui voluptas laudantium dolores ab, modi temporibus.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div id="web-design" class="kolo vertical-center thumbnail center-block"><i class="fa fa-comment icons" aria-hidden="true"></i></div>
+                <div class="caption">
+                    <h4>WEeb Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error fugiat quo sapiente, illum. Error dignissimos omnis blanditiis nesciunt rem voluptatum tenetur ducimus quaerat harum, praesentium.</p>
+                </div>
             </div>
         </div>
+    </section>
 
-
-    </div>
+    <!--       SEKCJA PORTFOLIO-->
 
     <section id="portfolio">
-        <h2>Port<span>folio</span></h2>
-        <div class="portfolio-items">
-            <div id="portfolio-item-1" class="single-portfolio-item">
-                <div class="single-portfolio-item-mask">
-                    <div class="single-portfolio-item-mask-content">
-                        <div class="single-portfolio-item-mask-content-inner">
-                            <h3>Projekt I</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, repellendus.</p>
-
+        <div class="container text-center">
+            <div class="row">
+                <h2 class="col-lg-12">PORTFOLIO</h2>
+                <p class="col-lg-12">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div id="element-portfolio1" class="element-portfolio thumbnail">
+                        <div class="caption">
+                            <p class="podpis-zdjecia"></p>
+                            <p class="podpis-zdjecia2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="element-portfolio2" class="element-portfolio thumbnail">
+                        <div class="caption">
+                            <p class="podpis-zdjecia"></p>
+                            <p class="podpis-zdjecia2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="element-portfolio3" class=" element-portfolio thumbnail">
+                        <div class="caption">
+                            <p class="podpis-zdjecia"></p>
+                            <p class="podpis-zdjecia2"></p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="portfolio-item-2" class="single-portfolio-item">
 
-                <div class="single-portfolio-item-mask">
-                    <div class="single-portfolio-item-mask-content">
-                        <div class="single-portfolio-item-mask-content-inner">
-                            <h3>Projekt II</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, repellendus.</p>
+        
+        <div class="row">
+            <div class="col-lg-4">
+                <div id="element-portfolio4" class="element-portfolio thumbnail">
+                    <div class="caption">
+                        <p class="podpis-zdjecia"></p>
+                        <p class="podpis-zdjecia2"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div id="element-portfolio5" class="element-portfolio thumbnail">
 
-                        </div>
+                    <div class="caption">
+                        <p class="podpis-zdjecia"></p>
+                        <p class="podpis-zdjecia2"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div id="element-portfolio6" class="element-portfolio thumbnail">
+
+                    <div class="caption">
+                        <p class="podpis-zdjecia"></p>
+                        <p class="podpis-zdjecia2"></p>
                     </div>
 
                 </div>
             </div>
-            <div id="portfolio-item-3" class="single-portfolio-item">
-
-                <div class="single-portfolio-item-mask">
-                    <div class="single-portfolio-item-mask-content">
-                        <div class="single-portfolio-item-mask-content-inner">
-                            <h3>Projekt III</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, repellendus.</p>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
+        </div>
         </div>
 
+        
     </section>
 
-    <!--SEKCJA KONTAKT-->
-<section id="contact">
-
-    <div class="contact-data">
-        <h2 id="naglowekkontakt">Katarzyna <span>Klimek</span></h2>
-
-        <address>Askenazego 11,<br>
-            03-580 Warszawa
-            <br>
-            <br>
-            tel. 506599668<br>
-            <div>Napisz do mnie:
-            <a id="mailto" href="mailto:katarzyna.monika.klimek@gmail.com" target="_top">katarzyna.monika.klimek@gmail.com</a></div>
-            
-            </address>
-        <br>
-        <div class="contact-social-icon">
-
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
 
 
-            <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin square fa-2x" aria-hidden="true"></i></a>
 
 
-            <a href="https://github.com/" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
 
 
-            <a href="https://twitter.com/?lang=pl" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
 
-        </div>
-    </div>
-    <div class="contact-form">
-        <form action="https://formspree.io/katarzyna.monika.klimek@gmail.com" method="post">
-            <label for="imie">Imię:</label>
-            <br/>
-            <input type="text" name="imie" id="imie">
-            <br/>
-            <label for="email">Email:</label>
-            <br/>
-            <input type="text" name="email" id="email">
-            <br/>
-            <label for="wiadomosc">Wiadomość</label>
-            <br/>
-            <textarea maxlength="1500" name="wiadomosc" id="wiadomosc"></textarea>
-            <br/>
-            <input class="wyslij" type="submit" value="wyślij">
+    <section id="team">
+        <h2>MEET OUR TEAM</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div id="person1"></div>
+        <div id="person2"></div>
+        <div id="person3"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque modi rerum, amet voluptates nesciunt error debitis veritatis in. Veritatis!</p>
+    </section>
+    <section id="contact">
+        <h2>CONTACT US</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <form>
+            <input type="text" placeholder="Imię">
+            <input type="email" placeholder="Twój e-mail">
+            <input type="tel" size="9" placeholder="Twój numer telefonu">
+            <textarea maxlength="1300" placeholder="Twoja wiadomość"></textarea>
+            <input type=submit>
         </form>
+    </section>
+    <footer>
+        <p>Copyright@YourWebsite</p>
+        <div id="fontawesome"></div>
+        <p>Privacy Policy</p>
+        <p>Terms of Use</p>
 
-    </div>
+    </footer>
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
-</section>
-
-<footer>
-   <p>copyright blabla 2017</p>
-
-</footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
