@@ -1,243 +1,277 @@
-#bgrid1 {
-    width: 100%;
-    font-family: 'Droid Serif', serif;
-    font-style: italic;
-    font-size: 16px;
+* {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 300;
+    box-sizing: border-box;
 }
 
-#div123 {
-    height: 50px;
-}
-
-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.navbar-header a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-
-/*SEKCJA HEADER*/
-
-header {
-    padding: 100px;
-    background-image: url(../img/header/pictures_on_the_wall.jpg);
-    background-repeat: no-repeat;
-    background-size: 300%;
-    background-position: 30% 27%;
-    background-blend-mode: overlay;
-    background-color: #5f5f5f;
-}
-
-#header-content {
-    color: white;
-    text-align: center;
-}
-
-h1 {
-    font-size: 90px;
-    font-family: 'Monsterrat', sans-serif;
-    font-weight: 800;
-    margin: 40px;
-}
-
-#header-content>p {
-    font-size: 45px;
-}
-
-h2 {
-    color: #333333;
-    font-weight: 700;
-    font-size: 50px;
-}
-
-p {
-    font-family: 'Droid Serif', serif;
-    font-style: italic;
-}
-
-#contact>div>p {
-    padding-top: 20px;
-    padding-bottom: 80px;
-}
-
-#team>p {
-    padding-top: 20px;
-    padding-bottom: 80px;
-}
-
-#portfolio>div>div>p {
-    padding-top: 20px;
-    padding-bottom: 80px;
-}
-
-#services>p {
-    padding-top: 20px;
-    padding-bottom: 80px;
-}
-
-button {
-    color: white;
-    background-color: #0ed8d6;
-    border: none;
-    padding: 1.5em 4em;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.vertical-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-/*SEKCJA SERVICES*/
-
-.icons {
-    font-size: 70px;
-    color: white;
-}
-
-.kolo {
-    background-color: #0ed8d6;
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
-}
-
-.center-block {
-    margin: 0 50%;
-    transform: translateX(-50%)
-}
-
-#services-content {
-    margin-top: 100px;
-}
-
-
-/*SEKCJA PORTFOLIO*/
-
-#portfolio {
-    background-color: #f7f7f7;
-}
-
-.element-portfolio {}
-
-.element-portfolio>a {
-    display: inline-block;
-    position: relative;
-}
-
-.portfolio-item-mask {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(14, 216, 214, 0.5);
-    opacity: 0.0;
-    font-size: 50px;
-    border: 0;
+html, body {
     margin: 0;
     padding: 0;
 }
 
-.portfolio-item-mask:hover {
-    opacity: 1.0;
+section {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Diplomata SC', cursive;
+    color: black;
+    transform: scale(0.5, 1);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+
+
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Diplomata SC", cursive;
+    transform: scale(0.5,1);
+    
+}
+
+
+/*MENU NAWIGACYJNE*/
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: #43d236;
+    text-align: center;
+    color: black;
+    opacity: 0.9;;
+}
+
+nav ul {
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: scale(0.5, 1);
+    list-style-type: none;
+    text-decoration-color: none;
+}
+
+nav a, nav a:focus {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Diplomata SC', cursive;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #479458;
+    text-decoration-color: none;
+    color: black;
+}
+
+
+/*HEADER*/
+
+#naglowek {
+    background-image: url(../img/route66.jpg);
+    width: 100%;
+    height: 500px;
+/*        background-size: cover;*/
+    position: relative;
+    background-position: center;
+/*        background-repeat: no-repeat;*/
+}
+
+#maska {
+    background: white;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+/*SEKCJA O NAS*/
+
+
+
+#o-nas {
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #43d236;
+}
+
+
+
+img {
+    height: 350px;
+    
+    border: 6px solid #479458;
+    border-radius: 6%;
+   
+}
+
+
+
+p {
+    display: inline-block;
+    
+    padding: 30px;
+}
+
+
+
+
+/*SEKCJA MENU*/
+
+#menu {
+    background-image: url(../img/route66-2.jpg);
+    background-position: center;
+    width: 100%;
+   background-size: cover;
+    margin-bottom: 20px;
+        position: relative;
+}
+
+#maska-menu {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0.59;
+    /*    position: absolute;*/
+/*    padding: 30px 30px 30px 30px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#menu-content {
+    opacity: 1;
+    height: inherit;
+    position: relative;
+    width: 100%;
+}
+
+#last {
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+.pozycja-menu, .pozycja-menu3, span {
+    font-family: 'Amarante', cursive;
+    font-size: 30px;
+    
+}
+
+.pozycja-menu3 {
+    margin-bottom: 30px;
+}
+
+#sosy {
+    font-size: 20px;
+}
+
+
+
+.opis-burgera {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#tekst-menu {
+    padding: 40px;
+}
+
+.cena {
+    text-align: right;
+    font-family: "Amarante", cursive;
+    font-size: 25px;
+    
+}
+
+.left-column, .right-column {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/*SEKCJA GALERIA*/
+
+#galeria {
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+img:hover {
+    opacity: 0.8;
 }
 
 .thumbnail {
-    border: 0;
+    border: 0 none;
+    box-shadow: none;
 }
 
 
-/*SEKCJA TEAM*/
-
-i {
-    color: white;
-}
-
-.icon:hover {
-    background-color: #0ed8d6;
-}
-
-.fa-facebook {
-    position: relative;
-    left: -1px;
-    top: 1px;
-}
-
-.fa-linkedin {
-    position: relative;
-    left: 1px;
-    ;
-}
-
-.icon {
-    background-color: black;
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    align-self: center;
-    text-align: center;
-    font-size: 25px;
-    display: inline-block;
-}
 
 
 /*SEKCJA KONTAKT*/
 
 #contact {
-    background-color: #363636;
-    background-image: url('../img/footer/world-map.jpg');
-    background-blend-mode: overlay;
-    background-position: center;
-    background-size: 200%;
-    background-repeat: no-repeat;
+    background-color: #43d236;
+    width: 100%;
+/*    overflow: hidden;*/
+/*   margin: 50px 0 0 0;*/
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-#contact h2,
-#contact p {
-    color: white;
+
+address {
+    text-align: center;
+}
+.icon {
+    font-size: 30px;
 }
 
-section#contact .form-group {
-    margin-bottom: 25px;
+.icon:hover {
+    transform: scale(1.3);
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
 
-section#contact .form-group input.form-control {
-    height: auto;
-}
 
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact ::placeholder {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.footer-p {
-    font-family: "RobotoSlab", sans-serif;
-    font-style: normal;
-    display: block;
-    margin: 0;
-}
-
-footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
